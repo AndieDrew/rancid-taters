@@ -1,11 +1,11 @@
 import React from 'react';
 import './movie-card.css';
 
-const Card =({poster_path, title}) => {
+const Card =({id, img, title}) => {
   return (
-    <div className='card'>
+    <div className='card' key={id}>
+      <img className='poster' src={img} alt={`Poster of ${title} movie`}/>
       <h3>{title}</h3>
-      <img src={poster_path} className='movieImg'>
     </div>
   )
 }

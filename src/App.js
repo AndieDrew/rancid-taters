@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Area from './movie-area.js';
-import Card from './movie-card.js';
+import Header from './header.js';
 import movieData from './mock-data.js';
 
 class App extends Component {
@@ -18,7 +18,8 @@ class App extends Component {
   render() {
     return (
       <main className = 'App' >
-        <Area movies={this.state.movies} />
+        <Header/>
+        <Area className='area' movies={this.state.movies} />
       </main>
     )
   }
