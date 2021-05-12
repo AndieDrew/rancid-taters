@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <main className = 'App' >
+      <main className = 'App'>
         <Header/>
         <Area className='area' movies={this.state.movies} />
       </main>
