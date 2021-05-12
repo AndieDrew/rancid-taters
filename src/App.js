@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Area from './movie-area.js';
+import Card from './movie-card.js';
+import movieData from './mock-data.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      movies: []
+    };
+  }
+
+  componentDidMount() {
+    this.setState({movies: movieData.movies})
+  }
+
+  render() {
+    return (
+      <main className = 'App' >
+        <Area movies={this.state.movies} />
+      </main>
+    )
+  }
 }
 
 export default App;
