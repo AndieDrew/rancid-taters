@@ -1,6 +1,16 @@
 .header {
   width: 100%;
-  height: 20vw;
-  background-color: red;
+  height: 11em;
+  background-color: #383838;
+}
 
+.pageTitle {
+  background: -webkit-linear-gradient(45deg, #fc00ff, #00dbde);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  margin-top: 0;
+  font-family: monospace;
+  font-size: 100px;
 }
