@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      movies: []
+      movies: [],
+      currentMovie: null,
     };
   }
 
