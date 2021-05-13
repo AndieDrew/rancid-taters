@@ -7,7 +7,6 @@ const Area = ({ movies }) => {
   const movieCards = movies.map(movie => {
     return (
       <Card
-      title= {movie.title}
       img= {movie.poster_path}
       />
     )

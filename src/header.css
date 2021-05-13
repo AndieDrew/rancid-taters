@@ -13,4 +13,26 @@
   margin-top: 0;
   font-family: monospace;
   font-size: 100px;
+  padding-left: 2%;
+}
+
+.tater-logo {
+ display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .tater-logo {
+      display: flex;
+    justify-content: flex-start;
+    animation: App-logo-spin infinite 4s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
