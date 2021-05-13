@@ -11,6 +11,6 @@
 
 .poster:hover {
   box-shadow: -5px -5px 30px 10px rgba(49, 196, 190, 0.75),
-             5px 5px 30px 10px rgba(49, 196, 190, 0.75);
+               5px 5px 30px 10px rgba(49, 196, 190, 0.75);
   cursor: pointer;
 }
