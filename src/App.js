@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       movies: [],
       currentMovie: null,
-
+      error: '',
     };
   }
 
@@ -19,6 +19,7 @@ class App extends Component {
     .then(data => {
       this.setState({movies: data.movies})
     })
+    .catch(error => this.setState({ error: 'Something went wrong!'}))
   }
 
   showMovieDetails = event => {
