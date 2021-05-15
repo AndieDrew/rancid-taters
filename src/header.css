@@ -4,6 +4,11 @@
   background-color: #383838;
 }
 
+.header-contents {
+  display: flex;
+}
+
+
 .pageTitle {
   background: -webkit-linear-gradient(45deg, #fc00ff, #00dbde);
   background-attachment: fixed;
