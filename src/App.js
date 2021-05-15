@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Area from './movie-area.js';
 import Header from './header.js';
 import Details from './movie-details.js';
-import { getMovie } from './api-calls';
+import { getMovie, getVideo } from './api-calls';
 
 class App extends Component {
   constructor() {
@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
       movies: [],
       currentMovie: null,
+      currentVideo: null,
       error: '',
     };
   }
@@ -24,6 +25,11 @@ class App extends Component {
 
   showMovieDetails = event => {
     this.setState({currentMovie: event.target.id})
+    getVideo(event.target.id)
+    .then(video => {
+      this.setState({currentVideo: video})
+    })
+    .catch(error => this.setState({ error: 'Video is unavailable'}))
   }
 
   changeState = () => {
