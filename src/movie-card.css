@@ -2,6 +2,8 @@
   height: 30vw;
   box-sizing: border-box;
   padding: 10px;
+  padding: 0px;
+  margin: 10px;
 }
 
 .poster {
@@ -9,8 +11,10 @@
   height: 100%;
 }
 
-.poster:hover {
+.card:hover {
   box-shadow: -5px -5px 30px 10px rgba(49, 196, 190, 0.75),
                5px 5px 30px 10px rgba(49, 196, 190, 0.75);
   cursor: pointer;
+  transition-duration: 0.5s;
+  transform: scale(1.03);
 }
