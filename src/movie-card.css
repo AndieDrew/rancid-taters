@@ -18,3 +18,9 @@
   transition-duration: 0.5s;
   transform: scale(1.03);
 }
+
+@media only screen and (max-width: 425px) {
+  .card {
+    height: 100vw;
+  }
+}
