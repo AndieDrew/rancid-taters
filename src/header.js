@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import tater from './potatos.png';
 
-const Header = (currentState) => {
+const Header = () => {
   return (
     <header className='header'>
       <span className='header-contents'>
