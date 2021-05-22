@@ -1,7 +1,20 @@
 .area {
-  background-image: linear-gradient( #8e2de2, #4a00e0);
+  background-color: white;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width: 800px) {
+  .area {
+    grid-gap: 5px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .area {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
