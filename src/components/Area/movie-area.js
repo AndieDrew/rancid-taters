@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './movie-card';
+import Card from '../Card/movie-card.js';
 import './movie-area.css';
 
 const Area = ({ movies }) => {
