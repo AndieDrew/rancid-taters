@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './movie-details.css';
 import { Link } from 'react-router-dom';
 import { getMovie, getVideo } from '../../api-calls';
-import tater from '../../potatos.png';
+import tater from '../../images/potatos.png';
 
 class Details extends Component {
   constructor() {
