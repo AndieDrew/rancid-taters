@@ -10,6 +10,7 @@ const Area = ({ movies }) => {
       img= {movie.poster_path}
       key= {movie.id}
       id= {movie.id}
+      title={movie.title}
       />
     )
   })
