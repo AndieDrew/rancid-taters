@@ -4,6 +4,8 @@
   padding: 10px;
   padding: 0px;
   margin: 10px;
+  box-shadow: -2.5px -2.5px 15px 5px grey,
+               2.5px 2.5px 15px 5px grey;
 }
 
 .poster {
