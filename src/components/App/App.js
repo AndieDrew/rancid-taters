@@ -4,6 +4,7 @@ import Header from '../Header/header.js';
 import Details from '../Details/movie-details.js';
 import { getMovies } from '../../api-calls';
 import { Switch, Route } from 'react-router-dom';
+import tater from '../../images/potatos.png';
 
 
 class App extends Component {
@@ -30,8 +31,16 @@ class App extends Component {
             <Switch>
               <Route exact path ='/'
                 render={() => (
-                  this.state.error ?
-                   <h1>Sorry no movies found 🤷‍♂️</h1>
+
+                  !this.state.movies.length && !this.state.error ?
+                  <div className='loading'>
+                  <h1>LOADING</h1>
+                  <img src={tater} className="tater-logo" alt="logo" />
+                  </div>
+
+                  : this.state.error ?
+                   <h1>Sorry, no movies found</h1>
+
                   : !this.state.error &&
                   <div>
                     <Header/>
