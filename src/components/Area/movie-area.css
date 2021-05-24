@@ -1,5 +1,5 @@
 .area {
-  background-color: white;
+  background-color: #dbe9f4;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
