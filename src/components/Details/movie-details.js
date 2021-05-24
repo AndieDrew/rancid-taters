@@ -30,17 +30,20 @@ class Details extends Component {
 
   render() {
     return (
-      !this.state.movie ?
+      !this.state.movie && !this.state.error?
       <div className='loading'>
       <h1>LOADING</h1>
       <img src={tater} className="tater-logo" alt="logo" />
       </div>
 
-      : !this.state.videos ?
+      : !this.state.videos && !this.state.error ?
       <div className='loading'>
       <h1>LOADING</h1>
       <img src={tater} className="tater-logo" alt="logo" />
       </div>
+
+      :this.state.error ?
+       <h1>Sorry no movies found 🤷‍♂️</h1>
 
       : this.state.movie &&
       <article className='article'>
