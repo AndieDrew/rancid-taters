@@ -17,13 +17,11 @@ describe('Details', () => {
     cy.go('back')
       .go('forward')
       .get('.card').should('not.exist')
-      .get('.article').should('be.visable')
       .get('.details').contains('Money Plane')
   })
 
   it('Should be able refresh on the details page and still see details', () => {
     cy.get('.card').should('not.exist')
-      .get('.article').should('be.visable')
       .get('.details').contains('Money Plane')
   })
 

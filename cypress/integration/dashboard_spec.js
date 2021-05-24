@@ -15,7 +15,8 @@ describe('Details', () => {
   })
 
   it('Should be able to use the back arrow to navigate', () => {
-    cy.go('back')
+    cy.get('.card').click()
+      .go('back')
       .get('.card').should('be.visible')
       .get('.article').should('not.exist')
   })
