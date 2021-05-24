@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Rancid Taters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### This website is completely different from IMDB and Rotton Tomatoes
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+* Rancid Taters is a movie data base application that allows the user to select a movie from the list
+of movies, and see information relevant to the selected movie, including a link to a trailer. The application
+uses router to allow for a simulated multi-page user experience with fully functional navigation arrows.
 
-### `npm start`
+## Learning goals
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Joint
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Using router to simulate a multi-page application.
+* Using Cypress to test for multiple user flows.
+* Using react to create a dynamically updating UI
 
-### `npm test`
+# Individual
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Matt - Additionally I wanted to get more practice with responsive/mobile design.
+* Andrew - Additionally I wanted to improve on conditional rendering and responsive design.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Repo](https://github.com/mcraig2342/rancid-tomatillos)
+* [Deploy Link](http://rancid-taters.surge.sh)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [Matt Craig](https://github.com/mcraig2342)
+* [Andrew Carlin](https://github.com/AndieDrew)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Road Map
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Dashboard shows list of all movies using mock data
+* A user can view a movies details
+* Data is fetched from an API and mock data is no longer used
+* Added router to simulate multiple pages
+* Added cypress testing
+* Added videos to details page and responsive design
 
-## Learn More
+##### Future Iterations Should Include:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* The ability to cycle through relevant movies
+* Fully responsive design across multiple browsers.
+* A search bar to search for movies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<p align="left">Dashboard</br>
+ <img width="1000" height="500" src="./src/images/dashboard.png">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="left">Details</br>
+ <img width="1000" height="500" src="./src/images/details.png">
+</p>
