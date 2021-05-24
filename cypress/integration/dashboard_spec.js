@@ -14,4 +14,11 @@ describe('Details', () => {
       .get('.details').contains('Money Plane')
   })
 
+  it('Should be able to use the back arrow to navigate', () => {
+    cy.get('.card').click()
+      .go('back')
+      .get('.card').should('be.visible')
+      .get('.article').should('not.exist')
+  })
+
 });

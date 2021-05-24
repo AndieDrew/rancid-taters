@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Area from './movie-area.js';
-import Header from './header.js';
-import Details from './movie-details.js';
-import { getMovies } from './api-calls';
+import Area from '../Area/movie-area.js';
+import Header from '../Header/header.js';
+import Details from '../Details/movie-details.js';
+import { getMovies } from '../../api-calls';
 import { Switch, Route } from 'react-router-dom';
 
 
