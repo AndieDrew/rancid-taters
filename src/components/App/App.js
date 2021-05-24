@@ -27,14 +27,16 @@ class App extends Component {
     return (
 
         <main className = 'App'>
-          <Header/>
             <Switch>
               <Route exact path ='/'
                 render={() => (
                   this.state.error ?
                    <h1>Sorry no movies found 🤷‍♂️</h1>
                   : !this.state.error &&
+                  <div>
+                    <Header/>
                     <Area className='area' movies={this.state.movies} />
+                  </div>
                 )}
               />
               <Route path={`/:id`}
