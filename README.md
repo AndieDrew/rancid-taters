@@ -16,6 +16,7 @@ Rancid Taters is a movie data base application that allows the user to select a 
 * Using react to create a dynamically updating UI
 * Using router to simulate a multi-page application.
 * Using Cypress to test for multiple user flows.
+* Make app responsive for mobile and tablet view.
 
 
 ## In Action
