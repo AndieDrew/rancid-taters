@@ -1,12 +1,12 @@
 import React from 'react';
 import './header.css';
-import logo from '../../images/logo.png';
 
 const Header = () => {
   return (
     <header className='header'>
-      <span className='header-contents'>
-       <img src={logo} className="logo" alt="logo" />
+      <span>
+        <h1 className='pageTitle'> Rancid Taters!
+        </h1>
       </span>
     </header>
   )

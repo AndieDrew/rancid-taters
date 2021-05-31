@@ -32,7 +32,7 @@ class Details extends Component {
     return (
       !this.state.movie && !this.state.error?
       <div className='loading'>
-      <h1>LOADING</h1>
+      <h1 className='loading-h1'>LOADING</h1>
       <img src={tater} className="tater-logo" alt="logo" />
       </div>
 
