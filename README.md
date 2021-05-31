@@ -2,6 +2,7 @@
 
 ## Check it out:
 * [Deploy Link](http://rancid-taters.surge.sh)
+* [Original group Repo](https://github.com/mcraig2342/rancid-tomatillos)
 
 ### Contributors
 
