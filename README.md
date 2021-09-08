@@ -49,9 +49,12 @@ uses router to allow for a simulated multi-page user experience with fully funct
 * A search bar to search for movies.
 
 ## Technologies Used
-- React
-- React Router
-- JavaScript, ES6
-- Html
-- CSS
-- Cypress
+<p >
+<img alt="React" src="https://img.shields.io/badge/-React-211f20?logo=react&logoColor=61DAFB&style=for-the-badge"/>
+<img alt="React-Router" src="https://img.shields.io/badge/-React%20Router-211f20?logo=react-router&logoColor=61DAFB&style=for-the-badge"/>
+<img alt="JavaScript" src="https://img.shields.io/badge/-javascript-302f2f?logo=javascript&logoColor=F7DF1E&style=for-the-badge"/>
+<img alt="CSS" src="https://img.shields.io/badge/-css-1572B6?logo=css3&logoColor=white&style=for-the-badge"/>
+<img alt="Cypress" src="https://img.shields.io/badge/-cypress-black?logo=cypress&logoColor=white&style=for-the-badge"/>
+<img alt="Git" src="https://img.shields.io/badge/-git-F0F0E8?logo=git&logoColor=F05032&style=for-the-badge"/>
+<img alt="VSCode" src="https://img.shields.io/badge/-VSCode-2C2C32?logo=visual-studio-code&logoColor=007ACC&style=for-the-badge"/>
+</p>
